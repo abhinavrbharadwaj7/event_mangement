@@ -1,0 +1,66 @@
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .event-card {
+    background-color: #d2e3c8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: 100%;
+    max-width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .event-card:hover {
+    box-shadow: 0 4px 8px green;
+  }
+  
+  @media (min-width: 768px) {
+    .event-card {
+      width: 48%;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .event-card {
+      width: 22%;
+    }
+  }
+  
+  .event-info {
+    margin-bottom: 10px;
+  }
+  
+  .event-title {
+    font-weight: bold;
+  }
+  
+  .event-date {
+    color: #555;
+  }
+  
+  .event-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .delete-btn:hover {
+    background-color: red;
+    color: white;
+  }
+  
+  .rem-para {
+    background-color: green;
+    color: white;
+    padding: 2px;
+    width: fit-content;
+    position: relative;
+    left: -1px;
+    bottom: 22px;
+  }
+  
